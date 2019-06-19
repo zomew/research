@@ -1,0 +1,7 @@
+.idea
+composer.lock
+*.log
+test/
+Logs/
+config.php
+*.cache
