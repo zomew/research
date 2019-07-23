@@ -65,7 +65,7 @@ class Client
         if ($times == 0) {
             $times = time();
         }
-        $base = strtotime(date('Y-m-d'), $times);
+        $base = strtotime(date('Y-m-d', $times));
         $diff = $times - $base;
         switch (true) {
             case ($diff < 12*60*60):    //小于12时
